@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home4/rewqkadz/public_html/store.circlec.rw
+    - /bin/cp -R images $DEPLOYPATH
